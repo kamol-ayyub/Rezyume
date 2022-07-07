@@ -1,0 +1,138 @@
+body {
+  min-height: 100vh;
+  width: 99%;
+  font-family: 'Source Sans Pro', sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(57, 55, 55);
+}
+p {
+  font-size: 14px;
+}
+.work-head {
+  font-weight: 700;
+  font-size: 17px;
+}
+#wrapper {
+  color: rgb(88, 88, 88);
+  height: max-content;
+  background-color: white;
+  width: 210mm;
+  padding: 40px;
+  margin: 50px 0;
+}
+.header-tags {
+  font-size: 20px;
+  font-weight: 700;
+}
+.header-item {
+  font-size: 30px;
+  line-height: 28px;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-color: #4fc3f7;
+  padding-bottom: 10px;
+}
+@media screen and (max-width: 400px) {
+  .header-item {
+    text-decoration: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  body {
+    width: 98%;
+  }
+}
+.profile-part {
+  padding-bottom: 10px;
+}
+.profile-info {
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 7px;
+}
+
+.profile-data {
+  font-size: 16px;
+}
+
+.experience {
+  margin-bottom: 40px;
+}
+
+.experience-item {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.experience-item-left {
+  width: 165px;
+}
+.experience-item-right {
+  margin-top: 12px;
+  width: calc(100% - 165px);
+  border-left: 1px solid rgb(34, 31, 31);
+  padding-left: 10px;
+}
+.experience-item-right-role {
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .experience-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .experience-item-left {
+    margin-top: 40px;
+  }
+  .experience-item-right {
+    width: 100%;
+  }
+}
+
+.projects {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.education-data {
+  font-size: 16px;
+  margin-bottom: -10px;
+}
+
+.skills {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.skills-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.skills-item {
+  font-size: 16px;
+  line-height: 18px;
+}
+.skills-main {
+  width: 50%;
+}
+
+.contacts-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.contacts-items {
+  text-decoration: none;
+  color: rgb(88, 88, 88);
+  transition: 0.5s;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.contacts-items:hover {
+  color: rgb(49, 36, 36);
+  transition: 0.5s;
+}
